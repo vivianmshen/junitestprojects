@@ -1,0 +1,85 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #baeaff;
+}
+
+#grid {
+	display: table;
+	border-spacing: 1px;
+	background-color: black;
+	border: 5px solid black;
+	margin-left: 50%;
+	-webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    min-width: 400px;
+}
+
+.row {
+	display: table-row;
+}
+
+.pixel {
+	height: 40px;
+	width: 40px;
+	display: table-cell;
+	background-color: white;
+}
+
+.color {
+	height: 40px;
+	width: 40px;
+}
+
+#currentPenColor {
+	margin-bottom: 20px;
+}
+
+#colorSelector {
+	border: 5px solid black;
+	margin-bottom: 10px;
+	display: flex;
+	width: 320px;
+	margin-left: 50%;
+	-webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+#redSelector {
+	background-color: red;
+	height: 40px;
+	width: 40px;
+}
+
+#orangeSelector {
+	background-color: orange;
+	height: 40px;
+	width: 40px;
+}
+
+#yellowSelector {
+	background-color: yellow;
+	height: 40px;
+	width: 40px;
+}
+
+#greenSelector {
+	background-color: green;
+	height: 40px;
+	width: 40px;
+}
+
+#blueSelector {
+	background-color: blue;
+	height: 40px;
+	width: 40px;
+}
+
+#purpleSelector {
+	background-color: purple;
+	height: 40px;
+	width: 40px;
+}
+
+
+
