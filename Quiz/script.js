@@ -46,6 +46,7 @@ function addAnswers(questionSection) {
 		var t = document.createTextNode(questions[questionIndex][1][answerNum]);
 		btn.appendChild(t);
 		btn.style.display = "block";
+		btn.style.cursor = "pointer";
 		btn.addEventListener("click", nextQuestion);
 		questionSection.appendChild(btn);
 	}

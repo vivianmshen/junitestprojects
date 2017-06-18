@@ -1,0 +1,31 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0px;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 50px
+}
+
+#navbar {
+	width: 100%;
+	border: 1px solid red;
+	height: 40px;
+}
+
+#main-container {
+	border: 1px solid red;
+	width: 800px;
+	margin: auto;
+	height: auto;
+	/*margin-bottom: 50px;*/
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;	
+	border: 1px solid red;
+	height: 50px;
+	width: 100%;
+}
