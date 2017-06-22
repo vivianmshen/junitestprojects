@@ -1,0 +1,49 @@
+html, body {
+	height: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0px;
+}
+
+.container {
+	margin: 0px auto;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+	display: flex;
+}
+
+.category {
+	width: 800px;
+	margin: 0px auto;
+}
+
+.category-title {
+	padding-left: 20px;
+	background-color: orange;
+}
+
+.item-container {
+	display: flex;
+	background-color: yellow;
+}
+
+.item {
+	background-color: green;
+	width: 33.33%;
+	margin: 20px;
+}
+
+.item:nth-child(even) {
+	background-color: purple;
+	padding: 10px;
+}
+
+.category:nth-child(even) {
+	color: blue;
+}
+
+.category:last-child {
+	color: white;
+	align-self: end;
+}

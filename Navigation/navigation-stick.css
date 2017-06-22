@@ -1,0 +1,50 @@
+html, body {
+	margin: 0px;
+	height: 100%;
+	box-sizing: border-box;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+#left-sidebar {
+	flex-grow: 1;
+	background-color: green;
+}
+
+#navbar {
+	min-height: 40px;
+	background-color: red;
+}
+
+#right-sidebar {
+	flex-grow: 1;
+	background-color: yellow;
+}
+
+#center-content {
+	flex: 1 1 40em;
+}
+
+#footer {
+	margin-top: auto;
+	width: 100%;
+	min-height: 50px;
+	background-color: blue;
+}
+
+#container-content {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	overflow: auto;
+}
+
