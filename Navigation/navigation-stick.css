@@ -2,11 +2,6 @@ html, body {
 	margin: 0px;
 	height: 100%;
 	box-sizing: border-box;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
 }
 
 #container {
@@ -16,7 +11,7 @@ html, body {
 }
 
 #left-sidebar {
-	flex-grow: 1;
+	min-width: 200px;
 	background-color: green;
 }
 
@@ -26,12 +21,12 @@ html, body {
 }
 
 #right-sidebar {
-	flex-grow: 1;
+	min-width: 300px;
 	background-color: yellow;
 }
 
 #center-content {
-	flex: 1 1 40em;
+	overflow-y: scroll;
 }
 
 #footer {
@@ -45,6 +40,5 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	flex: 1;
-	overflow: auto;
 }
 
